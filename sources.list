@@ -1,0 +1,112 @@
+# deb cdrom:[Xubuntu 14.04.1 LTS _trusty Tahr_ - Release amd64 (20140723)]/ trusty main multiverse restricted universe
+
+## Ubuntu Software Repositories
+## To add key, run: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys  437D05B5
+deb http://mirrors.mit.edu/ubuntu/ trusty main restricted
+# deb-src http://mirrors.mit.edu/ubuntu/ trusty main restricted
+deb http://mirrors.mit.edu/ubuntu/ trusty-updates main restricted
+# deb-src http://mirrors.mit.edu/ubuntu/ trusty-updates main restricted
+deb http://mirrors.mit.edu/ubuntu/ trusty-proposed main restricted multiverse universe
+# deb-src http://mirrors.mit.edu/ubuntu/ trusty-proposed main restricted multiverse universe
+
+deb http://mirrors.mit.edu/ubuntu/ trusty universe
+# deb-src http://mirrors.mit.edu/ubuntu/ trusty universe
+deb http://mirrors.mit.edu/ubuntu/ trusty-updates universe
+# deb-src http://mirrors.mit.edu/ubuntu/ trusty-updates universe
+
+deb http://mirrors.mit.edu/ubuntu/ trusty multiverse
+# deb-src http://mirrors.mit.edu/ubuntu/ trusty multiverse
+deb http://mirrors.mit.edu/ubuntu/ trusty-updates multiverse
+# deb-src http://mirrors.mit.edu/ubuntu/ trusty-updates multiverse
+
+deb http://mirrors.mit.edu/ubuntu/ trusty-backports main restricted universe multiverse
+# deb-src http://mirrors.mit.edu/ubuntu/ trusty-backports main restricted universe multiverse
+
+# deb http://archive.canonical.com/ubuntu trusty partner
+# deb-src http://archive.canonical.com/ubuntu trusty partner
+
+deb http://mirrors.mit.edu/ubuntu trusty-security main restricted
+# deb-src http://mirrors.mit.edu/ubuntu trusty-security main restricted
+deb http://mirrors.mit.edu/ubuntu trusty-security universe
+# deb-src http://mirrors.mit.edu/ubuntu trusty-security universe
+deb http://mirrors.mit.edu/ubuntu trusty-security multiverse
+
+## Tor project
+## To add key, run: gpg --keyserver keys.gnupg.net --recv 886DDD89 && gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -
+# deb http://deb.torproject.org/torproject.org trusty main
+
+## Latest LXDE PPA
+# To add key, run: sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 7992E892
+# deb http://ppa.launchpad.net/lxde/ppa/ubuntu trusty main
+# deb-src http://ppa.launchpad.net/lxde/ppa/ubuntu trusty main
+
+## medibuntu repositories
+## To add key, run: wget -q http://packages.medibuntu.org/medibuntu-key.gpg -O- | sudo apt-key add -
+# deb http://packages.medibuntu.org/ trusty free non-free
+# deb-src http://packages.medibuntu.org/ trusty free non-free
+
+## tor, vidalia repositories
+# deb http://ppa.launchpad.net/adnarim/ubuntu trusty main
+# deb-src http://ppa.launchpad.net/adnarim/ubuntu trusty main
+
+## libapache2-mod-security2 releases
+# deb http://ppa.launchpad.net/yagisan/ubuntu trusty main
+# deb-src http://ppa.launchpad.net/yagisan/ubuntu trusty main
+
+## VirtualBox repository
+## To add key, run: wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add - 
+# deb http://download.virtualbox.org/virtualbox/debian trusty contrib
+
+## Ubuntuzilla repository (latest Mozilla Firefox, Thunderbird, Seamonkey builds)
+## To add key, run: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C1289A29
+# deb http://downloads.sourceforge.net/project/ubuntuzilla/mozilla/apt all main
+# deb-src http://downloads.sourceforge.net/project/ubuntuzilla/mozilla/apt all main
+
+## LibreOffice PPA
+## To add key, run: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1378B444
+# deb http://ppa.launchpad.net/libreoffice/ppa/ubuntu trusty main
+# deb-src http://ppa.launchpad.net/libreoffice/ppa/ubuntu trusty main
+
+## GetDeb repository
+## To add key, run: wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+# deb http://archive.getdeb.net/ubuntu trusty-getdeb apps
+# deb http://archive.getdeb.net/ubuntu trusty-getdeb games
+
+## PlayOnLinux repository
+## To add key, run: wget -q "http://deb.playonlinux.com/public.gpg" -O - | sudo apt-key add -
+# deb http://deb.playonlinux.com/ trusty main
+
+## Latest Wine PPA
+## To add key, run: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F9CB8DB0
+# deb http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu trusty main
+# deb-src http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu trusty main
+
+# Turnkey Linux repositories
+# To add key, run: wget http://code.turnkeylinux.org/turnkey-keyring/turnkey-release-keyring.gpg && sudo apt-key add turnkey-release-keyring.gpg
+# deb http://archive.turnkeylinux.org/ubuntu lucid main
+# deb http://archive.turnkeylinux.org/ubuntu lucid universe
+
+## RetroShare
+## To add key, run: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 2E10C9E3
+# deb http://ppa.launchpad.net/csoler-users/retroshare/ubuntu trusty main
+# deb-src http://ppa.launchpad.net/csoler-users/retroshare/ubuntu trusty main
+
+## Sublime Text 2
+## To add key, run: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886
+# deb http://ppa.launchpad.net/webupd8team/sublime-text-2/ubuntu trusty main
+# deb-src http://ppa.launchpad.net/webupd8team/sublime-text-2/ubuntu trusty main
+
+## Xorg "Fresh Crack" bleeding-edge patches
+## To add key, run: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8844C542
+# deb http://ppa.launchpad.net/xorg-edgers/ppa/ubuntu trusty main
+# deb-src http://ppa.launchpad.net/xorg-edgers/ppa/ubuntu trusty main
+
+## WebUpd8.org repository
+## To add key, run: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 4C9D234C
+# deb http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu trusty main
+# deb-src http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu trusty main
+
+## MakeHaven GiveLaptops.org repository
+## To add key, run: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BEB2C293
+deb http://ppa.launchpad.net/seandiggity/givelaptops/ubuntu trusty main 
+# deb-src http://ppa.launchpad.net/seandiggity/givelaptops/ubuntu trusty main 
